@@ -23,16 +23,16 @@ const Login = () => {
   const config = {
     products: [Products.emailMagicLinks, Products.oauth],
     emailMagicLinksOptions: {
-      loginRedirectURL: "https://stytch-react-template.vercel.app/",
+      loginRedirectURL: "https://stytch-react-template.vercel.app/authenticate",
       loginExpirationMinutes: 60,
-      signupRedirectURL: "https://stytch-react-template.vercel.app/",
+      signupRedirectURL: "https://stytch-react-template.vercel.app/authenticate",
       signupExpirationMinutes: 60,
     },
     oauthOptions: {
       providers: [{ type: "google" }],
-      loginRedirectURL: "https://stytch-react-template.vercel.app/",
+      loginRedirectURL: "https://stytch-react-template.vercel.app/authenticate",
       loginExpirationMinutes: 60,
-      signupRedirectURL: "https://stytch-react-template.vercel.app/",
+      signupRedirectURL: "https://stytch-react-template.vercel.app/authenticate",
       signupExpirationMinutes: 60,
     },
   };
